@@ -1,0 +1,41 @@
+
+
+
+body{
+    background-color: #eee;
+}
+
+*{
+    padding: 0; margin: 0; box-sizing: border-box;
+}
+
+
+.card{
+    width: 320px; height: 80px; background-color: white;
+    border-radius: 6px; box-shadow: 0 3px 13px 0 rgba(0, 0, 0, 0.2);
+    overflow: hidden; margin: 150px auto;
+    display: flex; flex-direction: row; flex-wrap: nowrap;
+    justify-content: flex-start; align-items: center;
+}
+
+
+.card img{
+    width: 60px; height: 60px; border-radius: 50%;
+    margin: 10px;
+}
+
+.card h2{
+    font-size: 23px;
+    font-family: sans-serif;
+}
+
+
+.card button{
+    font-size: 26px;
+    background-color: transparent; border: 0;
+    width: 60px; height: 100%;
+    cursor: pointer;
+}
+
+
+
