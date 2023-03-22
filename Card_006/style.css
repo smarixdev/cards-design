@@ -1,0 +1,55 @@
+
+
+body{
+    background-color: #eee;
+}
+
+*{
+    padding: 0; margin: 0; box-sizing: border-box;
+}
+
+.card{
+    width: 520px; height: 150px; background-color: white;
+    border-radius: 6px; box-shadow: 0 3px 13px 0 rgba(0, 0, 0, 0.2);
+    margin: 150px auto; overflow: hidden; font-family: sans-serif;
+    display: flex; flex-direction: row; flex-wrap: nowrap;
+    justify-content: flex-start; align-items: center;
+}
+
+.card img{
+    width: 120px; height: 120px; border-radius: 50%;
+    margin: 15px; box-shadow: 0 3px 13px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card .details {
+    width: calc(100% - 150px); height: 100%;
+    display: flex; flex-direction: row; flex-wrap: wrap;
+    justify-content: flex-start; align-items: center;
+    padding-top: 20px;
+}
+
+.card .details h2{
+    font-size: 24px;
+}
+
+.card .details button{
+    width: 120px; height: 40px; background-color: #2a2aff;
+    color: white; border: 0; border-radius: 40px; cursor: pointer;
+    font-size: 17px; transition: all 0.3s; margin-left: 14px;
+}
+.card .details button:hover{
+    background-color: white; color: #2a2aff;
+    box-shadow: 0 3px 13px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card .progress {
+    width: 90%; height: 9px; background-color: white;
+    border-radius: 10px; border: 1px solid #2a2aff;
+    position: relative; bottom: 28px;
+}
+.card .progress .value{
+    width: 70%; height: 100%; position: absolute; left: 0; top: 0;
+    background-color: #2a2aff;
+}
+
+
