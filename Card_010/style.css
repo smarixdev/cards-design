@@ -1,0 +1,79 @@
+
+
+
+body{
+    background-color: #eee;
+}
+
+*{
+    padding: 0; margin: 0;
+    box-sizing: border-box;
+}
+
+.card{
+    width: 360px; height: 90px;
+    background-color: white;
+    box-shadow: 0 3px 13px 0 rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 150px auto;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+.card img{
+    width: 80px; margin: 5px 0 5px 5px;
+    border-radius: 16px;
+    box-shadow: 3px 0 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card .data{
+    width: 45%;
+}
+
+.card .data h2{
+    font-size: 18px;
+    color: #444;
+}
+
+.card .data p{
+    font-size: 15px;
+    color: #666;
+    padding-left: 5px;
+}
+
+.card button{
+    width: 40px; height: 40px;
+    border-radius: 12px;
+    border: 0;
+    font-size: 24px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.card .open{
+    margin-right: 15px;
+    background-color: #0f03;
+    color: green;
+}
+.card .open:hover{
+    color: white;
+    background-color: green;
+}
+
+.card .close{
+    background-color: #f003;
+    color: red;
+}
+
+.card .close:hover{
+    background-color: red;
+    color: white;
+}
+
+
+
