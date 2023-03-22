@@ -1,0 +1,77 @@
+
+
+body{
+    background-color: #eee;
+}
+
+*{
+    padding: 0; margin: 0;
+    box-sizing: border-box;
+}
+
+.card{
+    width: 340px; height: 400px;
+    border-radius: 20px;
+    margin: 100px auto;
+    box-shadow: 0 3px 13px 0 rgba(0, 0, 0, 0.2);
+    padding: 200px 10px 10px 10px;
+    position: relative;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.card img{
+    height: 250px;
+    border: 1px solid white;
+    box-shadow: 0 3px 18px 0 rgba(0, 0, 0, 0.4);
+    position: absolute; left: 50%;
+    top: -12%; transform: translate(-50%, 0);
+}
+
+.card .data{
+    width: 100%; height: 100%;
+    padding: 20px;
+    display: flex; flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card .data h2{
+    font-size: 26px;
+    position: relative;
+    top: 12px;
+}
+
+.card .data h3{
+    font-weight: normal;
+    color: #777;
+}
+
+.card .data p{
+    font-size: 26px;
+    color: rgb(244, 199, 2);
+    letter-spacing: -5px;
+}
+
+.card .data button{
+    width: 85%; height: 45px;
+    border-radius: 8px;
+    font-size: 18px;
+    color: #666;
+    border: 0;
+    box-shadow: 0 3px 13px 0 rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.card .data button:hover{
+    box-shadow: 0 3px 16px 0 rgba(0, 0, 0, 0.3);
+    transform: scale(1.03);
+}
+
+.card .data button:active{
+    transform: scale(0.9);
+}
+
+
