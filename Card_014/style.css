@@ -1,0 +1,101 @@
+
+
+body{
+    background-color: #eee;
+}
+
+*{
+    padding: 0; margin: 0;
+    box-sizing: border-box;
+}
+.card{
+    width: 340px; height: 65px;
+    border-radius: 20px;
+    box-shadow: 0 3px 13px 0 rgba(0, 0, 0, 0.2);
+    margin: 120px auto;
+    position: relative;
+    font-family: sans-serif;
+}
+
+.card input{
+    display: none;
+}
+
+.card label{
+    width: 100%; height: 100%;
+    background-color: white;
+    border-radius: 20px;
+    display: block;
+    position: absolute;
+    left: 0; top: 0;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.card label img{
+    width: 40px;
+    position: absolute;
+    left: 20px; top: 50%;
+    transform: translate(0, -50%);
+}
+.card label span{
+    font-size: 18px;
+    position: absolute;
+    left: 80px; top: 50%;
+    transform: translate(0, -50%);
+}
+.card label ion-icon{
+    font-size: 25px;
+    position: absolute;
+    right: 20px; top: 50%;
+    transform: translate(0, -50%) rotate(180deg);
+    transition: all 0.3s;
+}
+
+.card input:checked ~ label ion-icon{
+    transform: translate(0, -50%) rotate(0deg);
+}
+
+.card .options{
+    width: 100%; height: 0px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 3px 13px 0 rgba(0, 0, 0, 0.2);
+    position: absolute; left: 0; top: 50%;
+    transition: all 0.3s;
+    overflow: hidden;
+    z-index: 9;
+}
+
+.card input:checked ~ .options{
+    height: 336px; top: 108%;
+}
+
+.card .options div{
+    width: 100%; height: 55px;
+    overflow: hidden;
+    border-bottom: 1px solid #eee;
+    position: relative;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+.card .options div:hover{
+    background-color: #dedede;
+}
+.card .options div img{
+    width: 40px;
+    position: absolute;
+    left: 20px; top: 50%;
+    transform: translate(0, -50%);
+}
+.card .options div span{
+    font-size: 18px;
+    position: absolute;
+    left: 70px; top: 50%;
+    transform: translate(0, -50%);
+}
+
+
+
+
+
