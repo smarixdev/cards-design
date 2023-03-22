@@ -1,0 +1,125 @@
+
+
+body{
+    background-color: #eee;
+}
+
+*{
+    padding: 0; margin: 0;
+    box-sizing: border-box;
+}
+
+.card{
+    width: 280px; height: 340px;
+    margin: 120px auto; padding: 10px;
+    overflow: hidden;
+    background-color: white;
+    box-shadow: 0 3px 13px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.card .header{
+    width: 100%; border-radius: 12px;
+}
+
+.card h2{
+    color: #333; font-size: 24px;
+    line-height: 42px; padding-top: 5px;
+}
+
+.card p{
+    color: #777; font-size: 17px;
+    position: relative; bottom: 5px;
+}
+
+.card .timing{
+    width: 100%; height: 40px;
+    position: relative; top: 3px;
+}
+
+.card .timing .progress{
+    width: 100%; height: 5px;
+    background-color: rgba(119, 0, 255, 0.336);
+    border-radius: 5px;
+    position: relative;
+}
+.card .timing .progress .value{
+    width: 40%; height: 100%;
+    background-image: linear-gradient(45deg, rgb(64, 13, 203), rgb(131, 39, 189));
+    border-radius: 5px;
+}
+.card .timing .progress .point{
+    width: 10px; height: 10px;
+    background-color: rgb(131, 39, 189);
+    border-radius: 50%;
+    position: absolute; left: 40%;
+    transform: translate(-50%, -75%);
+    cursor: pointer;
+}
+
+.card .timing p{
+    font-size: 14px; color: #777;
+    padding-top: 10px; width: 45%;
+    display: inline-block;
+}
+
+.card .timing .old{
+    text-align: left;
+}
+
+.card .timing .all{
+    text-align: right;
+}
+
+
+.card .player{
+    width: 100%; height: 50px;
+    position: relative; bottom: 12px;
+    display: flex; flex-direction: row;
+    flex-wrap: nowrap; justify-content: space-between;
+    align-items: center;
+}
+
+.card .player div{
+    min-width: 20px; height: 20px;
+    background-image: linear-gradient(45deg, rgb(64, 13, 203), rgb(131, 39, 189));
+    overflow: hidden;
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+.card .player div img{
+    width: 100%; height: 100%;
+    background-color: white;
+    mix-blend-mode: screen;
+}
+
+.card .player .play{
+    width: 50px; height: 50px;
+    min-width: 50px;
+    display: flex; flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    transition: all 0.3s;
+    
+
+}
+.card .player .play:hover{
+    transform: scale(1.1);
+    box-shadow: 0 3px 13px 0 rgba(0, 0, 0, 0.3);
+}
+
+.card .player .play img{
+    width: 20px; height: 20px;
+    background-color: transparent;
+    filter: invert(1);
+}
+
+
+
+
+
+
