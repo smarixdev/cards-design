@@ -1,0 +1,93 @@
+
+
+body{
+    background-color: #eee;
+}
+
+*{
+    padding: 0; margin: 0;
+    box-sizing: border-box;
+}
+
+.card{
+    width: 400px; height: 50px;
+    border-radius: 50px;
+    padding: 5px;
+    display: flex;
+    background-color: white;
+    margin: 120px auto;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    font-family: sans-serif;
+    position: relative;
+}
+
+.card input{
+    display: none;
+}
+
+.card label{
+    font-size: 25px;
+    cursor: pointer;
+    width: 130px; height: 40px;
+    border-radius: 50px;
+    display: flex; flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #888;
+    transition: all 0.3s;
+}
+.card label:hover{
+    background-color: rgba(57, 57, 253, 0.15);
+}
+
+.card #light:checked ~ label[for="light"]{
+    color: rgb(57, 57, 253);
+    justify-content: flex-start;
+    padding-left: 20px;
+}
+
+.card #dark:checked ~ label[for="dark"]{
+    color: rgb(57, 57, 253);
+    justify-content: flex-start;
+    padding-left: 20px;
+}
+
+.card #default:checked ~ label[for="default"]{
+    color: rgb(57, 57, 253);
+    justify-content: flex-start;
+    padding-left: 20px;
+}
+
+
+.card .ind{
+    position: absolute;
+    width: 130px; height: 40px;
+    border-radius: 40px;
+    background-color: rgba(57, 57, 253, 0.15);
+    transition: left 0.3s;
+}
+.card .ind span{
+    display: none;
+    position: absolute;
+    left: 50px; top: 50%;
+    transform: translate(0, -50%);
+    font-size: 18px; color: rgb(57, 57, 253);
+}
+
+.card #light:checked ~ .ind{ left: 5px; }
+.card #light:checked ~ .ind .light{ display: block; }
+
+.card #dark:checked ~ .ind{ left: 135px; }
+.card #dark:checked ~ .ind .dark{ display: block; }
+
+.card #default:checked ~ .ind{ left: 265px; }
+.card #default:checked ~ .ind .default{ display: block; }
+
+
+
+
+
+
