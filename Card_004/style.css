@@ -1,0 +1,68 @@
+
+body{
+    background-color: #eee;
+}
+
+*{
+    padding: 0; margin: 0; box-sizing: border-box;
+}
+
+.card{
+    width: 300px; height: 350px; background-color: white;
+    border-radius: 6px; box-shadow: 0 3px 13px 0 rgba(0, 0, 0, 0.2);
+    margin: 120px auto; overflow: hidden;
+    text-align: center; font-family: sans-serif;
+}
+
+.card .cover{
+    width: 100%; height: 150px;
+}
+
+.card .profile {
+    width: 150px; height: 150px; border-radius: 50%;
+    transform: translate(0, -50%);
+    outline: 5px solid white;
+}
+
+.card h2{
+    font-size: 28px; position: relative; bottom: 70px;
+}
+.card p{
+    font-size: 18px; color: #666; position: relative; bottom: 70px;
+}
+.card button{
+    width: 40%; margin: 0 5px; height: 38px;
+    position: relative; bottom: 60px;
+    font-size: 17px; cursor: pointer;
+    transition: all 0.3s;
+    border-radius: 4px;
+}
+
+.card .message{
+    border: 1px solid rgb(36, 44, 251);
+    color: rgb(36, 44, 251);
+    background-color: transparent;
+}
+.card .message:hover{
+    background-color: rgb(36, 44, 251);
+    color: white;
+}
+
+.card .follow{
+    border: 0; background-color: rgb(36, 44, 251);
+    color: white;
+}
+
+.card .follow:hover{
+    color: rgb(36, 44, 251);
+    background-color: white;
+    border: 1px solid rgb(36, 44, 251);
+}
+
+
+
+
+
+
+
+
