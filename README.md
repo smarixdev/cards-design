@@ -72,8 +72,19 @@ You can find the playlist here: [**Cards Design On Youtube**](https://youtube.co
 
 ![The picture of the card { 7 }](/images/Card_007.png)
 
-**Watch Video:** [**'Explanation' Video**](https://youtu.be/vbDIY3PT0h4)
+**Watch Video:** [**'Explanation' Video**](https://youtu.be/QgVw8j-Msk4)
 
-**Watch Video:** [**'Speed Code' Video**](https://youtu.be/zQpqX735XPo)
+**Watch Video:** [**'Speed Code' Video**](https://youtu.be/oeyoVskU79M)
 
 **See Code:** [**Code And Files**](https://github.com/webket/cards-design/tree/main/Card_007)
+
+---
+### Card { 8 }
+
+![The picture of the card { 8 }](/images/Card_008.png)
+
+**Watch Video:** [**'Explanation' Video**](https://youtu.be/oTLvKcfb7lk)
+
+**Watch Video:** [**'Speed Code' Video**](https://youtu.be/n2J2VZ_xIpE)
+
+**See Code:** [**Code And Files**](https://github.com/webket/cards-design/tree/main/Card_008)

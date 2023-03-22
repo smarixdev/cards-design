@@ -1,0 +1,89 @@
+
+
+
+body{
+    background-color: #eee;
+}
+
+*{
+    padding: 0; margin: 0; box-sizing: border-box;
+}
+
+.card{
+    width: 340px; height: 370px;
+    position: relative;
+    margin: 120px auto;
+    overflow: hidden;
+    cursor: pointer;
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+}
+
+.card img{
+    width: 100%; height: 100%;
+    position: absolute; left: 0; top: 0;
+    transition: all 0.2s;
+}
+
+.card h2{
+    width: 100%; height: 50px;
+    position: absolute; left: 0;
+    bottom: 60px;
+    font-size: 38px;
+    z-index: 10;
+    transition: all 0.2s;
+}
+
+.card p{
+    width: 100%; height: 50px;
+    position: absolute; left: 0;
+    bottom: 16px;
+    font-size: 20px;
+    z-index: 10;
+    transition: all 0.32s;
+    color: rgb(255, 213, 0);
+}
+
+.card button{
+    width: 180px; height: 50px;
+    background-color: rgb(255, 213, 0);
+    position: absolute; left: 50%; bottom: -70px;
+    border: 0;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 18px;
+    transform: translate(-50%, 0);
+    transition: all 0.44s;
+}
+
+
+
+.card:hover img{
+    transform: scale(1.2);
+    filter: brightness(60%);
+}
+
+.card:hover h2{
+    bottom: 200px;
+    font-size: 52px;
+}
+
+.card:hover p{
+    bottom: 140px;
+    font-size: 23px;
+}
+
+.card:hover button{
+    bottom: 90px;
+}
+
+.card button:hover{
+    background-color: #181817;
+    color: white;
+}
+
+
+
+
+
