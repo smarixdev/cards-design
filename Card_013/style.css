@@ -1,0 +1,67 @@
+
+
+body{
+    background-color: #eee;
+}
+
+*{
+    padding: 0; margin: 0;
+    box-sizing: border-box;
+}
+
+.card{
+    width: 340px; height: 65px;
+    border-radius: 20px;
+    overflow: hidden;
+    background-color: white;
+    box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.2);
+    margin: 250px auto;
+    display: flex; flex-direction: row;
+    font-family: sans-serif;
+    position: relative;
+}
+
+.card input{
+    display: none;
+}
+
+.card label{
+    width: 50%; height: 100%;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 23px;
+}
+.card label span{
+    font-size: 17px; margin-left: 5px;
+}
+
+.card #messages:checked ~ label[for="messages"] {
+    color: rgb(57, 57, 253);
+}
+.card #requests:checked ~ label[for="requests"] {
+    color: rgb(57, 57, 253);
+}
+
+.card .ind{
+    width: 30%; height: 8px;
+    background-color: rgb(57, 57, 253);
+    border-radius: 8px;
+    position: absolute;
+    left: 10%; bottom: -4px;
+    transition: all 0.3s;
+}
+
+.card #messages:checked ~ .ind{
+    left: 10%;
+}
+
+.card #requests:checked ~ .ind{
+    left: 60%;
+}
+
+
+
+
