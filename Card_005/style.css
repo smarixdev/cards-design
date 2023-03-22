@@ -1,0 +1,65 @@
+
+
+body{
+    background-color: #eee;
+}
+
+*{
+    padding: 0; margin: 0; box-sizing: border-box;
+}
+
+.card{
+    width: 580px; height: 140px; background-color: white;
+    border-radius: 6px; box-shadow: 0 3px 13px 0 rgba(0, 0, 0, 0.2);
+    margin: 180px auto; overflow: hidden; font-family: sans-serif;
+    display: flex; flex-direction: row; flex-wrap: nowrap;
+    justify-content: flex-start; align-items: center;
+}
+
+.card img{
+    width: 120px; height: 120px; border-radius: 50%;
+    margin: 10px 10px 10px 20px;
+}
+
+.card .details{
+    width: 270px;
+    display: flex; flex-direction: row; flex-wrap: wrap;
+    justify-content: flex-start; align-items: center;
+}
+.card .details h2{
+    width: 100%; margin: 8px 0;
+}
+.card .details a, .card .details p{
+    text-decoration: none; color: #555;
+    display: flex; flex-direction: row; flex-wrap: nowrap;
+    justify-content: center; align-items: center; margin-right: 5px;
+}
+.card .details ion-icon{
+    font-size: 26px;
+}
+
+.card .details a ion-icon{
+    transform: rotate(-45deg);
+}
+
+
+.card button{
+    width: 160px; height: 45px;
+    background-color: rgb(41, 26, 251);
+    margin-right: 20px; color: white;
+    font-size: 17px; cursor: pointer;
+    border: 0; border-radius: 4px;
+    transition: all 0.3s;
+}
+.card button:hover{
+    background-color: white; color: rgb(41, 26, 251);
+    box-shadow: 0 3px 13px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+
+
+
+
+
+
