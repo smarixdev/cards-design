@@ -1,0 +1,84 @@
+
+
+body{
+    background-color: #eee;
+}
+
+*{
+    padding: 0; margin: 0;
+    box-sizing: border-box;
+}
+
+.card{
+    width: 400px; height: 250px;
+    background-color: white;
+    overflow: hidden;
+    margin: 120px auto;
+    box-shadow: 0 3px 13px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    font-family: sans-serif;
+    padding: 10px;
+    position: relative;
+}
+
+.card img{
+    width: calc(40% - 10px); height: calc(100% - 20px);
+    border-radius: 12px;
+    border: 1px solid white;
+    box-shadow: 3px 0 18px 0 rgba(0, 0, 0, 0.4);
+    position: absolute; left: 10px;
+    top: 10px;
+}
+
+.card .data{
+    width: calc(60% - 10px); height: calc(100% - 20px);
+    position: absolute;
+    right: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.card .data h2{
+    font-size: 26px;
+    line-height: 27px;
+}
+
+.card .data h3{
+    font-weight: normal;
+    color: #777;
+    line-height: 0;
+}
+
+.card .data p{
+    font-size: 25px;
+    color: rgb(244, 199, 2);
+}
+
+.card .data button{
+    width: 85%; height: 40px;
+    border: 0;
+    background-color: white;
+    border-radius: 8px;
+    font-size: 18px;
+    box-shadow: 0 3px 13px 0 rgba(0, 0 ,0 ,0.2);
+    cursor: pointer;
+    transition: all 0.3s;
+    color: #666;
+}
+
+.card .data button:hover{
+    transform: scale(1.05);
+    box-shadow: 0 4px 16px 0 rgba(0, 0 ,0 ,0.3);
+}
+
+.card .data button:active{
+    transform: scale(0.9);
+}
+
+
+
+
