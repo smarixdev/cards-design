@@ -1,0 +1,71 @@
+
+body{
+    background-color: #eee;
+}
+
+*{
+    padding: 0; margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+.card{
+    width: 230px; height: 230px;
+    background-color: white;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 3px 13px 0 rgba(0, 0, 0, 0.2);
+    margin: 150px auto;
+    padding: 10px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.card .watermark{
+    position: absolute;
+    font-size: 130px;
+    color: #eee;
+    font-family: impact;
+    bottom: -5px; right: 20px;
+    z-index: 1;
+}
+
+.card ion-icon{
+    position: relative;
+    z-index: 2;
+    font-size: 50px;
+    color: #333;
+}
+
+
+.card h2{
+    position: relative;
+    z-index: 2;
+    font-size: 42px;
+    color: #333;
+    letter-spacing: 5px;
+    padding: 10px 0;
+    text-shadow: 0 0 5px white;
+    bottom: 5px;
+}
+
+
+.card p{
+    position: relative;
+    z-index: 2;
+    font-size: 17px;
+    color: #555;
+    text-shadow: 0 0 7px white;
+    bottom: 5px;
+}
+
+
+
+
