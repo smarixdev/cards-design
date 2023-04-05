@@ -1,0 +1,81 @@
+
+body{
+    background-color: #eee;
+}
+
+*{
+    padding: 0; margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.card{
+    width: 260px; height: 340px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 3px 13px 0 rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 120px auto;
+    position: relative;
+}
+
+.card h2{
+    width: 100%; height: 60px;
+    background-color: white;
+    position: absolute; left: 0; top: 0;
+    border-bottom: 1px solid #0f1536;
+    font-size: 22px; font-weight: normal;
+    text-align: center;
+    line-height: 60px;
+}
+
+.card .list{
+    width: 100%; height: calc(100% - 60px);
+    position: absolute; bottom: 0; left: 0;
+    background-color: white;
+    overflow-x: hidden;
+    overflow-y: auto;
+    display: flex; flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px 15px;
+}
+
+.card .list::-webkit-scrollbar{ width: 2px; }
+.card .list::-webkit-scrollbar-track{ width: 2px; background-color: transparent; }
+.card .list::-webkit-scrollbar-thumb{ width: 2px; background-color: #0f1536; border-radius: 2px; }
+
+.card .list .item{
+    display: block; cursor: pointer;
+    width: 100%; min-height: 50px;
+    background-color: #0f15360f;
+    margin: 4px auto;
+    display: flex; flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 6px;
+    transition: all 0.3s;
+    padding: 15px;
+}
+
+.card .list .item:hover{
+    box-shadow: 1px 1px 3px 0 #0f153644;
+}
+
+.card .list .item input{
+    width: 15px; height: 15px;
+    margin-right: 10px;
+}
+
+.card .list .item input:checked,
+.card .list .item input:checked ~ span{
+    opacity: 0.3;
+}
+
+
+
+
+
+
