@@ -288,3 +288,14 @@ You can find the playlist here: [**Cards Design On Youtube**](https://youtube.co
 **See Code:** [**Code And Files**](https://github.com/webket/cards-design/tree/main/Card_026)
 
 ---
+### Card { 27 }
+
+![The picture of the card { 27 }](/images/Card_027.png)
+
+**Watch Video:** [**'Explanation' Video**](https://youtu.be/TAEIJfxxdpM)
+
+**Watch Video:** [**'Speed Code' Video**](https://youtu.be/nba_V0VaByg)
+
+**See Code:** [**Code And Files**](https://github.com/webket/cards-design/tree/main/Card_027)
+
+---
