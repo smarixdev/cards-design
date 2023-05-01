@@ -244,3 +244,14 @@ You can find the playlist here: [**Cards Design On Youtube**](https://youtube.co
 **See Code:** [**Code And Files**](https://github.com/webket/cards-design/tree/main/Card_022)
 
 ---
+### Card { 23 }
+
+![The picture of the card { 23 }](/images/Card_023.png)
+
+**Watch Video:** [**'Explanation' Video**](https://youtu.be/x9PXl1HOlvs)
+
+**Watch Video:** [**'Speed Code' Video**](https://youtu.be/6TzyZzrTpJk)
+
+**See Code:** [**Code And Files**](https://github.com/webket/cards-design/tree/main/Card_023)
+
+---
